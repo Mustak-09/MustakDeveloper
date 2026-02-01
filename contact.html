@@ -145,7 +145,49 @@
                 <div class="col-md-12 text-center">
                   <div class="error-message"></div>
 
-                  <button type="submit" c>Send Message</button>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Styled Submit Button</title>
+
+<style>
+.submit-btn {
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    color: #fff;
+    border: none;
+    padding: 14px 40px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 20px rgba(0, 242, 254, 0.4);
+}
+
+.submit-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 25px rgba(0, 242, 254, 0.6);
+}
+
+.submit-btn:active {
+    transform: scale(0.96);
+}
+
+.submit-btn:focus {
+    outline: none;
+}
+</style>
+</head>
+
+<body>
+
+<form>
+    <input type="submit" value="Submit" class="submit-btn">
+</form>
+
+</body>
+</html>
                 </div>
 
               </div>
